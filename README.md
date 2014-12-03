@@ -11,6 +11,7 @@ The source is based on part of source code (https://github.com/cmex81/qAttitudeI
 
 ## Compile:
  `qmake qFlightInstruments.pro` 
+
  `make`
 
 
@@ -48,7 +49,7 @@ Only test on Linux Mint 16 64-bit.
 
 
 ## Screenshot:
--![alt text](http://blog.adv-ci.com/wp-content/uploads/2013/05/Screenshot-2D-SLAM-1.png "Screenshot 1")
+-![alt text](https://raw.githubusercontent.com/bushuhui/qFlightInstruments/master/screen_shot.png "Screenshot 1")
 
 
 
