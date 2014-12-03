@@ -1,6 +1,6 @@
 # Qt Flight instrument widgets
 
-This program is a pure Qt implementation of flight instrument widgets, including attitude display indicator (ADI), compass, and list viewer. 
+This program is a pure Qt implementation of flight instrument widgets, including attitude display indicator (ADI), compass, and list viewer. These widgets are wrote in single .h/.cpp, therefore is easy to add to your project. In addition it is easy to modify.
 
 The source is based on part of source code (https://github.com/cmex81/qAttitudeIndicator). We improve their implementation and make it clear to read.
 
@@ -31,15 +31,6 @@ Keyboard:
     J     - H +
     K     - H -
 ```
-
-
-examples:
-
-`./fastslam.e -method FAST1 -mode interactive` (FastSLAM 1, user interactive)
-
-`./fastslam.e -method FAST2 -mode waypoints -m example_webmap.mat` (FastSLAM 2, following waypoints, map is "example_webmap.mat")
-
-`./fastslam.e -method EKF1 -mode waypoints -m example_loop1.mat` (EKF SLAM, following waypoints, map is "example_loop1.mat")
 
 
 
