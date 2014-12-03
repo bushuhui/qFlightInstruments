@@ -54,4 +54,4 @@ Only test on Linux Mint 16 64-bit.
 
 
 ## Project homepage:
-http://www.adv-ci.com/blog/project/qFlightInstruments/
+http://www.adv-ci.com/blog/source/qflightinstruments/
