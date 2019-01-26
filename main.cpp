@@ -1,6 +1,4 @@
-#include <QtCore>
-#include <QtGui>
-#include <QWidget>
+#include <QApplication>
 
 #include "qFlightInstruments.h"
 #include "TestWin.h"

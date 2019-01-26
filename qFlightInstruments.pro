@@ -6,6 +6,7 @@
 
 QT += core gui
 
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = qFlightInstruments
 TEMPLATE = app
@@ -18,4 +19,3 @@ SOURCES += main.cpp \
 
 HEADERS  += qFlightInstruments.h \
             TestWin.h
-
