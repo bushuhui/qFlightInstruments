@@ -551,8 +551,10 @@ QKeyValueListView::QKeyValueListView(QWidget *parent) : QTableWidget(parent)
     setColumnCount(2);
 
     // set no headers
-    verticalHeader()->hide();
-    horizontalHeader()->hide();
+    //verticalHeader()->hide();
+    //horizontalHeader()->hide();
+    QStringList htb = {"Name", "Value"};
+    this->setHorizontalHeaderLabels(htb);
 
     // set last section is stretch-able
     QHeaderView *HorzHdr = horizontalHeader();

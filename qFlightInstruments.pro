@@ -4,12 +4,13 @@
 #
 #-------------------------------------------------
 
-QT += core gui
+QT += core gui widgets
 
 
 TARGET = qFlightInstruments
 TEMPLATE = app
 
+QMAKE_CXXFLAGS += -std=c++11
 
 SOURCES += main.cpp \
         TestWin.cpp \
